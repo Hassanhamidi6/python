@@ -24,6 +24,7 @@ while True:
     total=[20,80]
 
     if user_selection == 1:
+
         print(f"CustomerIDS-> {customer_id}\nCustomerName-> {customer_name}\nProduct-> {product}\nProductPrice-> {product_price}\nProductQuantity->{product_quantity}\nTotal->{total}")
     elif user_selection == 2:
         input_quantity=int(input("How many entries you want to insert : "))
@@ -43,7 +44,6 @@ while True:
             total.append(totalprice)
             print("Data Entered Succesfully")
             print(f"CustomerIDS-> {customer_id}\nCustomerName-> {customer_name}\nProduct-> {product}\nProductPrice-> {product_price}\nProductQuantity->{product_quantity}\nTotal->{total}")
-
     else:
         print("Thank you for using the application !!!")
         break
