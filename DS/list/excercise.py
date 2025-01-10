@@ -36,12 +36,14 @@ while True:
             productprice=int(input("Enter product price"))
             productquantity=int(input("enter product quantity"))
             totalprice=productprice*productquantity
+
             customer_id.append(customerid)
             customer_name.append(customername)
             product.append(productname)
             product_price.append(productprice)
             product_quantity.append(productquantity)
             total.append(totalprice)
+            
             print("Data Entered Succesfully")
             print(f"CustomerIDS-> {customer_id}\nCustomerName-> {customer_name}\nProduct-> {product}\nProductPrice-> {product_price}\nProductQuantity->{product_quantity}\nTotal->{total}")
     else:

@@ -10,6 +10,14 @@ def define methods functions operations
 
 # def main():
 #     pass
+# ob=List()
+# ob.main()
+
+# main()
+
+
+# def main():
+#     pass
 
 #listdefination
 firstlist=[]
