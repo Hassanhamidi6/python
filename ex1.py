@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 '''
 Q1 write a python program which will tske string snd character as input 
 and print count of that character in the string? if character is not in that string then print "character is not present"

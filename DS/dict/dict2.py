@@ -13,6 +13,7 @@ for key in meaning:
 print(meaning.keys())
 for keys in meaning.keys():
     print(keys)
+    
 #values
 print(meaning.values())
 for values in meaning.values():
