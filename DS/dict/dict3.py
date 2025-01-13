@@ -79,24 +79,36 @@
     
 
 
-d={
-    "name":["Hassan","Taimoor","Arham"],
-    "id" : [6,8,2],
-    "age" :[20,21,22]
-}
-print(d.values())
+# d={
+#     "name":["Hassan","Taimoor","Arham"],
+#     "id" : [6,8,2],
+#     "age" :[20,21,22]
+# }
+# print(d.values())
 
-import time
+# import time
 
-print(time.time())
-for i in d.values():
-    print(i[::-1])
-print(time.time())
-for key in d.keys():
-    print(d[key][::-1])
-print(time.time())
-for key,values in d.items():
-    print(values[::-1])
-print(time.time())
-for key in d:
-    print(d[key][::-1])
+# print(time.time())
+# for i in d.values():
+#     print(i[::-1])
+# print(time.time())
+# for key in d.keys():
+#     print(d[key][::-1])
+# print(time.time())
+# for key,values in d.items():
+#     print(values[::-1])
+# print(time.time())
+# for key in d:
+#     print(d[key][::-1])
+
+# enter the number:
+# 5
+
+# [1,4,9,16,25,36]
+import math
+number=int(input("Enter the number"))
+
+l=[]
+for i in range (1,number+1):
+    l.append(math.sqrt(i))
+print(l)    
