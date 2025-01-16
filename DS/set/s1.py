@@ -4,6 +4,9 @@ sets
 m={1,4,3,4,5}
 print(m)
 
+#accessing elemnts
+# print(m[0]) #slicing not allowed
+
 print(dir(set))
 
 k={13,14}
@@ -34,3 +37,22 @@ print(max(m))
 print(len(m))
 
 
+
+
+print(n.issubset(m))
+print(m.issuperset(k))
+print(m.union(k))
+print(m.intersection(k))
+print(m.difference())
+
+
+for i in m:
+    if i > 50:
+        print("greater")
+    else:
+        print("lower")
+
+min , max, sum
+
+m={1,2,3,4,5,6}
+max(m)

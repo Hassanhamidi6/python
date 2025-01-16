@@ -1,5 +1,5 @@
 #defination
-m=(1,2)
+m=(1,2,5)
 
 #accessing elements
 print(m[0])
