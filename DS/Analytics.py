@@ -13,6 +13,7 @@
     f. Average of marks
     g. Calculate Median of salary or marks if possible
 '''
+# program for all above things
 
 d={
     "id": [0,1,2,3,4],
