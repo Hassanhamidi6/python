@@ -15,6 +15,10 @@
 '''
 # program for all above things
 
+def percentage(l1:list)-> float:
+    per=sum(l1)/len(l1)
+    return per
+
 d={
     "id": [0,1,2,3,4],
     "name": ["Hassan", "Arham", "Taimoor", "Ali", "Rahdain"],
@@ -30,9 +34,8 @@ max_salary=max(d["salaries"])
 min_salary=min(d["salaries"])
 highest_salary_person= d["salaries"].index(max(d["salaries"]))
 lowest_salary_person=d["salaries"].index(min(d["salaries"]))
-w=sum(d["salaries"]) 
-k=len(d["salaries"])
-Average=(w/k) 
+
+Average=percentage(l1=d["salaries"])
 
 percentage=[]
 for i in d["marks"] :
@@ -46,9 +49,7 @@ print(percentage)
 max_per=max(percentage)
 min_per=min(percentage)
 
-sum_marks=sum(d["marks"])
-len_marks=len(d["marks"])
-average_marks=sum_marks/len_marks
+average_marks=percentage(l1=d["marks"])
 
 for keys in d:
     r=d[keys][highest_salary_person]
