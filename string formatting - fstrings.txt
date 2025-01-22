@@ -1,0 +1,67 @@
+string formatting -> fstrings
+print func
+Input func
+Operators
+If Else
+Loop 
+String class
+List class
+Dict Class
+Set
+Tuple
+Comprehension
+Typecasting
+Functions
+
+    -- Function Define
+    -- Return
+    -- Parameters
+    -- Arguments
+    -- Default Parameters
+    -- Args and Kwargs
+    -- Nested Functions
+    -- Lambda
+    -- Global or Local scope
+    -- Python Inbuilt Functions and their uses
+
+Object oriented programming
+
+Try Except
+File Handling
+  --Text, CSV
+
+OS, Shutil
+
+EDA --> Exploratory data analysis -> 90 Percent
+pandas 
+Numpy
+->Matrix maths
+
+-> states and prob  -> Feature Engineering and Outlier removal and data cleaning 
+->Visualisation
+  ->Matplotlib and seaborn
+
+Machine Learning -> Models , Supervised unsupervised and reeinforcement learning
+
+Deep Learning -> Neural Networks -> Efficiently
+
+Computer Vision -> Give an eye to the computer  -> Image classification , Object detection and Image segmentaion
+Convolutional neural netwokr -> images and videos
+
+Seq2seq learning -> NLP -> Natural Language processing -> 
+Context -> RNN -> Sequential data -> LSTM -> BLSTM -> GRU  -> Attention -> Encoder-decoder architecture
+
+Generative AI
+Google -> Attention all you need -> Transformer -> Obsilite -> LLM ->Chatgpt LLM -> Genimi LLM , llma by meta facebook
+           Video-Video , Text-text , Tex-video , Text-image , image-text , image-image , Q/A chatbots
+
+Genrative AI -> BOOM GAN BOOM
+
+Agentic AI -> Software engineer  
+
+
+Artificial Intelligence
+  machine Learning 
+   deep learning
+      GA
+    Agentic AI
