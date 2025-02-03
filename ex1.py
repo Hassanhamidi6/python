@@ -10,6 +10,15 @@ Q1 write a python program which will tske string snd character as input
 and print count of that character in the string? if character is not in that string then print "character is not present"
 '''
 
+name, char =input("Enter the name").split(' ')
+print (f"{name}, {name.count(char)}")
+
+
+ 
+
+
+
+
 # name,char=input("Enter the name and the character you want to count ").split(' ')
 
 # name=name.lower()
