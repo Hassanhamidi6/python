@@ -27,8 +27,9 @@ Functions
 Object oriented programming
 
 Try Except
+
 File Handling
-  --Text, CSV
+  --Text,CSV
 
 OS, Shutil
 
