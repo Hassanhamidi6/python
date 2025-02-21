@@ -1,4 +1,4 @@
-string formatting -> fstrings
+string formatting -> using fstrings
 print func
 Input func
 Operators
@@ -10,7 +10,7 @@ Dict Class
 Set
 Tuple
 Comprehension
-Typecasting
+Typecasting --> changing of data type
 Functions
 
     -- Function Define

@@ -1,83 +1,95 @@
-library={
-    "id":[],
-    "name":[],
-    "price":[],
-}
+# '''
+# Exercises by Harshisht vashist
 
-def insert ():
-    try:
-        id=int(input("Enter the id to insert"))
-        if id in library["id"]:
-            print ("Already exist")
-        else:
-            name=input("Enter the name")
-            price=int(input("Enter the price"))
-    except Exception as e:
-        print("Error occurd")
+# of FUNCTIONS
+# '''
+# # Exercise number 1, function to print last char of name
 
-    library["id"].append(id)
-    library["name"].append(name)
-    library["price"].append(price)
+# def last_char(name:str)->str:
+#     return name[-1]
 
-def delete():
-    try:
-        id=int(input("Enter the id to delete"))
-        if id in library["id"]:
-            index=library["id"].index(id)
-            for keys in library:
-                library[keys].pop(index)
-        else:
-            print("Given ID did not present")
-    except Exception as e :
-        print ("Error occurd")
 
-def retrieve_specific():
-    try:
-        id=int(input("Enter the id to retrieve the data"))
-        if id in library["id"]:
-            pass
-        else:
-            print("Given ID does not exist")
-    except Exception as e:
-        print("Error occurd")
+# print(last_char("hassan"))
 
-def update():
-    id=int(input("Enter the id"))
-    if id not in library["id"]:
-        pass
-    else:
-        pass
+# # Exercise number 2, function of odd even checker number
 
-def retrieve():
-    print(library)
+# def odd_even_checker(number:int)->int:
+#     if number%2==0:
+#         print("even number")
+#     if number%2!=0:
+#         print("odd number")
 
-interface='''
-------------------------Student Management System-----------------------------
-Press 1, to register the new student
-Press 2, to check the current data
-Press 3, to retrieve specific student credentials
-Press 4, to update the existing data
-Press 5, to delete the data
-Press 6, to Exit
--------------------------------------------------------------------------------
-'''
-while True:
-    user_choice=int(input(interface))
-    if user_choice== 1:
-        insert()
-        continue
-    elif user_choice==2 :
-        retrieve()
-        continue
-    elif user_choice==3:
-        retrieve_specific()
-        continue
-    elif user_choice==4:
-        update()
-        continue
-    elif user_choice==5:
-        delete()
-        continue
-    else :
-        print ("Thankyou for using the application")
-        break
+# odd_even_checker(12)
+
+# # Exercise number 3, function returning boolean value (True or False)
+
+# def even_check(num:int)->bool:
+#     if num%2==0:
+#         return True
+#     else:
+#         return False
+    
+# print(even_check(4))
+
+# # Exercise number 5, take two numbers as input and return which number is greater 
+
+# def large_num(number1:int, number2:int)->int:
+#     if number1>number2:
+#         return number1
+#     else:
+#         return number2
+
+# number1=input("Enter first number: ")
+# number2=input("Enter second number: ")
+# bigger=large_num(number1,number2)
+# print(f"{bigger} is greater number")
+
+# # Exercise number 6, palindrom function 
+
+# def is_pelindrom(word):
+#     reverse_word=word[::-1]
+#     if word==reverse_word:
+#         return True
+#     else:
+#         False
+
+# word=input("Enter any word: ")
+# print(is_pelindrom(word))
+
+# # Exercise number 7, function which takes a list of numbers and return square of them
+
+# def square(l:list)->list:
+#     square=[]
+#     for i in l:
+#         square.append(i**2)
+#     return square
+
+# print(square([1,2,3,4]))
+
+# # Exercise nummber8, function which returns reverse list
+
+# def reverse_list(ls:list)->list:
+#     ls.reverse()
+#     return ls
+    
+# print(reverse_list([1,2,3,4]))
+
+# Another method to do exercise number 8
+
+def reverse_list(ls:list)->list:
+    return ls[::-1]
+
+print(reverse_list([1,2,3,4]))
+
+# Another method of exercise 8
+
+def reverse_list(l:list):
+    r_list=[]
+    for i in l:                                        #arham se pochna ha 
+        popped_item=l.pop()
+        r_list.append(popped_item)
+    return r_list
+
+print(reverse_list([1,2,3,4]))
+
+

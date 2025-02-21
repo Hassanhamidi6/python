@@ -6,6 +6,7 @@
 # print (r"this is single \ backslash")
 
 # # calculator in pyhton 
+
 # print (4+8*9)
 
 # # floating point division
@@ -25,13 +26,13 @@
 # # for roundoff we use round 
 # print (round (2**0.5, 3))
 
-# variables 
+# # variables 
 
 # number1 = 6
 # print (number1)
 
-# we can store any type of number in variables   
-# It is dynamic programming language which means data is chngeable 
+# # we can store any type of number in variables   
+# # It is dynamic programming language which means data is chngeable 
 
 # number1 = 6
 # print (number1)
@@ -43,20 +44,20 @@
 # name = 1234
 # print (name)
 
-# we don't have to write data type in python
+# # we don't have to write data type in python
 
-# variable rules
-# you cannot start vraible with number but you can with letter or _ underscore but can use numbers in between 
-# we cannot use special symbols in start or in between in variable decleration 
-# 
+# # variable rules
+# # you cannot start vraible with number but you can with letter or _ underscore but can use numbers in between 
+# # we cannot use special symbols in start or in between in variable decleration 
 
-# conventions
+
+# # conventions
 
 # user_one_name = "Ali Raza" # snake case writing 
 # userOneName = "Ali Raza" # camel case writing 
 
 
-# CHAPTER 2
+# # CHAPTER 2
 
 # # Strings
 
@@ -75,10 +76,10 @@
 
 # print (Last_name * 6)
 
-# user input
-# user function 
+# # user input
+# # user function 
 
-# input function always take input as an string 
+# # input function always take input as an string 
 
 # name = input ("type your name")
 # print("Hello "+ name )
@@ -86,7 +87,13 @@
 # age = input("type your age")
 # print ("Your age is "+ "20")
 
-# int function 
-# int ()  becsuse python take every single chracter as an string so we have to use integer function 
+# # int function 
+# # int ()  becsuse python take every single chracter as an string so we have to use integer function 
 
-name, rollno=input("type your name and rollno")
+
+
+print("my name is {name}".format(name="hassan"))
+
+pi=3.1298843
+
+print(f"value of pi is {pi:.2f}")

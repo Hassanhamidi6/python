@@ -5,10 +5,11 @@ import os
 '''
 os.chdir()  -> change directory
 os.getcwd() -> get current working directory
-os.amkedirs() -> path -> folder create
-os.path.ezists() -> check exist
+os.makedirs() -> path -> folder create
+os.path.exists() -> check if exist
 os.path.join() -> do paths join kardeta hai
 '''
+
 
 #getcwd
 current_dir=os.getcwd()
@@ -33,3 +34,4 @@ for i in files:
 print(python_p,pictures,folders)
 os.chdir("E://")
 new_dir=os.getcwd()
+
