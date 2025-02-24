@@ -1,3 +1,13 @@
+'''
+Tuples 
+Tuples are immuteable -->not changeable
+Tuples can store any type of data type
+we cannot change (add or delete) values from tuple once it created
+but if there is list  inside the tuple we can use list methiods inside the tuple 
+ 
+'''
+
+
 #defination
 m=(1,2,5)
 

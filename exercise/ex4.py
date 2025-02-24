@@ -119,7 +119,7 @@ print(filter_odd_even([1,2,3,4,5,6]))
 
 
 # Exercise number 11, function which takes 2 list  as input and give same list values as ouput 
-# [1,2,3,4] [1,2,5,6] -->[1,2]
+# For example--> [1,2,3,4] [1,2,5,6] -->[1,2]
 
 def common_element(l1:list, l2:list):
     l3=[]
