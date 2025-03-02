@@ -1,5 +1,6 @@
 '''
-Tuples 
+Tuples
+Tuple is the fastest data structure  
 Tuples are immuteable -->not changeable
 Tuples can store any type of data type
 we cannot change (add or delete) values from tuple once it created

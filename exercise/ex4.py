@@ -129,4 +129,82 @@ def common_element(l1:list, l2:list):
     return l3
 
 print(common_element([1,2,3,4],[1,2,6,7]))
+
+# Exercise number 12, Function which takes a number as input and return a dictionary whivh contain cubes 
+# till that number , For example (3)--> {1:1, 2:8, 3:27}
             
+def numbers_cube(num)->dict:
+    d={}
+    for i in range(1,num+1):
+        d[i]=i**3
+    return d
+print(numbers_cube(3))
+
+#Exercise number13, make a dictionary which will take your name , age , favorite movie and favorite song as an input
+
+
+dict={}
+
+name=input("Enter the name: ")
+age =input("Enter the age: ")
+fav_movie=input("Enter the favorite movies seperated by comma : ").split(",")
+fav_songs=input("Enter the favorite songs seperated by comma: ").split(",")
+
+dict["name"]=name
+dict["age"]=age
+dict["fav_movies"]=fav_movie
+dict["fav_songs"]=fav_songs
+
+for keys,values in dict.items():
+    print(f"{keys} : {values}")
+
+
+# Exercise number 14, Using list comprehension 
+# make a Function which takes list as an input and retrun reverse values
+
+def reverse_string(l:list):
+    ls=[]
+    for i in l:
+        ls.append(i[::-1])
+    return ls
+
+print(reverse_string(["abc","xyz"]))
+
+# Another method , by using list comprehenion 
+
+def reverse_str(l:list):
+    return[i[::-1] for i in l]
+
+print(reverse_str(["abc","efg","xyz"]))
+
+#Exercise number 15, function take input a list and return if the type is int or float 
+
+def type_checker(l:list):
+    ls=[]
+    for i in l:
+        if type(i)==int or type(i)== float:
+            ls.append(i)
+    return ls
+
+print(type_checker([True, False, 1, 6, [1,2,3], 0.9]))
+
+#Another method by using list comprehension
+
+def typ_check(l):
+
+    return [str(i) for i in l if (type(i)==int or type(i)==float)]
+
+print(typ_check([1,2.3,5,[1,2,3],True]))
+
+
+#exercise number 16,function take input a number using *args and return the power of the given numbers in list
+
+def to_power(num,*args):
+    if args:
+        return [i**num for i in args]
+    else:
+        print("you didn't pass any args")
+
+print(to_power(3,*[2,3,4]))
+
+

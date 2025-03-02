@@ -1,5 +1,7 @@
 '''
 Function -> parameter -> Limited -> Paramters == Arguments
+
+Args and Kwargs
 '''
 
 def LimParamFunctions(a:int,b:int,c:int)-> any:
@@ -18,18 +20,18 @@ print(KWordArgs(name="arham",age=24,email="ak06598909@gmail.com"))
 
 Func({1:2},{2:4},{5:6},{7:8})
 
-# def ArgumentFunction(*args:int) -> int:
-#     for i in args:
-#         print(i)
+def ArgumentFunction(*args:int) -> int:
+    for i in args:
+        print(i)
 
-# ArgumentFunction(10,20,30,40)
+ArgumentFunction(10,20,30,40)
 
-# *arg -> paramater , multiple arguments ->tuple
+# # *arg -> paramater , multiple arguments ->tuple
 #      def m(*args):  
 #          return args
 #      m(str,int,list,tuple,dict)  -> tuple()   m(1,2,3,4,5)->(1,2,3,4,5) .m([],[],[]) ->([],[],[]) m({},{},{}) -> ({},{},{})
  
-# **kwargs -> paramater . multiple key words arguments
+# # **kwargs -> paramater . multiple key words arguments
 #      def m(**kwargs):  
 #         return kwargs
 #     m(name="arham",,,,,,,) ->dictionary -> dict
