@@ -11,6 +11,8 @@ Map function
 
 Zip function 
 
+
+
 '''
 
 name=["abc","hassan", "hamidi"]
@@ -31,3 +33,5 @@ def target(l,st):
 
 
 print(target(name,"hassan"))
+
+#hassan 
