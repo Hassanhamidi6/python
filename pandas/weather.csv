@@ -1,0 +1,8 @@
+day,temperature,windspeed,event
+1/1/2025,32F,6 mph,Rain
+1/2/2025,-99999,7mph,Sunny
+1/3/2025,28,-99999,Snow
+1/4/2025,-99999,7,no event
+1/5/2025,32C,-99999,Rain
+1/6/2025,31,2,Sunny
+1/7/2025,34,5,no event

@@ -1,0 +1,13 @@
+day,city,temperature,windspeed,event
+1/1/2025,newyork,32,6,Rain
+1/2/2025,newyork,36,7,Sunny
+1/3/2025,newyork,28,12,Snow
+1/4/2025,newyork,33,7,Sunny
+1/1/2025,mumbai,90,5,Sunny
+1/2/2025,mumbai,85,12,Fog
+1/3/2025,mumbai,87,15,Fog
+1/4/2025,mumbai,92,5,Rain
+1/1/2025,paris,45,20,Sunny
+1/2/2025,paris,50,13,Cloudy
+1/3/2025,paris,54,8,CLoudy
+1/4/2025,paris,42,10,Cloudy
